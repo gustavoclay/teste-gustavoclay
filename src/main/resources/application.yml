@@ -1,0 +1,15 @@
+# autor: gustavoclay
+spring:
+  jpa:
+    show-sql: true 
+  jackson:
+    date-format: yyyy-MM-dd
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+server:
+  port: 12333
+  servlet:
+    context-path: /teste
